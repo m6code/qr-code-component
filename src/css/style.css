@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    /* Color Scheme */
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+
+    /* Fonts */
+    --font-family-primary: 'Outfit', sans-serif;
+    --font-family-body: var(--font-family-primary);
+    --font-family-heading: var(--font-family-primary);
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+/* Utility Classes */
+
+.text-primary-600 {
+    color: var(--color-grayish-blue);
+}
+
+.text-primary-900 {
+    color: var(--color-dark-blue);
+}
+
+.bg-primary-200 {
+    background-color: var(--color-light-gray);
+}
+
+.bg-primary-50 {
+    background-color: var(--color-white);
+}
+
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.font-normal {
+    font-weight: var(--font-weight-regular);
+}
+
+.card {
+    /*max-width: 24rem!* 384px *!;*/
+    /*border-radius: 0.75rem!* 12px *!;*/
+    max-width: 25rem;
+    border-radius: 0.85rem;
+}
