@@ -45,9 +45,3 @@
     font-weight: var(--font-weight-regular);
 }
 
-.card {
-    /*max-width: 24rem!* 384px *!;*/
-    /*border-radius: 0.75rem!* 12px *!;*/
-    max-width: 25rem;
-    border-radius: 0.85rem;
-}
