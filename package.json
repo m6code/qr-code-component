@@ -7,7 +7,8 @@
     "dev": "concurrently --kill-others \"vite --host\" \"pnpm tw-bcss\"",
     "build": "vite build",
     "preview": "vite preview",
-    "tw-bcss": "npx tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch"
+    "tw-bcss": "npx tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch",
+    "twbuildcss": "npx tailwindcss -i ./src/css/style.css -o ./dist/output.css"
   },
   "devDependencies": {
     "concurrently": "^8.2.1",
@@ -15,3 +16,4 @@
     "vite": "^4.4.5"
   }
 }
+
