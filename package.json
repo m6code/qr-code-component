@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others \"vite --host\" \"pnpm tw-bcss\"",
+    "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
-    "tw-bcss": "npx tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "concurrently": "^8.2.1",
