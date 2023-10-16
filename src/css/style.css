@@ -1,3 +1,80 @@
-body {
-    background-color: green;
+:root {
+    /* Color Scheme */
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+
+    /* Fonts */
+    --font-family-primary: 'Outfit', sans-serif;
+    --font-family-body: var(--font-family-primary);
+    --font-family-heading: var(--font-family-primary);
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+/* Utility Classes */
+
+.text-primary-600 {
+    color: var(--color-grayish-blue);
+}
+
+.text-primary-900 {
+    color: var(--color-dark-blue);
+}
+
+.bg-primary-200 {
+    background-color: var(--color-light-gray);
+}
+
+.bg-primary-50 {
+    background-color: var(--color-white);
+}
+
+
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+.font-normal {
+    font-weight: var(--font-weight-regular);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 24rem;
+    border-radius: 0.85rem;
+    max-height: fit-content;
+}
+.card-img {
+    padding: 2rem;
+}
+
+.img {
+    border-radius: 0.85rem;
+    max-width: 20rem;
+}
+
+.card-text {
+    padding: 0 2.75rem 3rem 2.75rem;
+}
+
+.card-title-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-subtitle-text {
+    padding: 0.75rem;
+    font-weight: 400;
+    text-align: center;
 }
